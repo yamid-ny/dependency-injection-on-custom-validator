@@ -1,0 +1,16 @@
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "message": [{
+    "target": {
+      "email": "mail@mail.esoso",
+      "password": "12d"
+    },
+    "value": "12d",
+    "property": "password",
+    "children": [],
+    "constraints": {
+      "minLength": "password must be longer than or equal to 6 characters"
+    }
+  }]
+}
